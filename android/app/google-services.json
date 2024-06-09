@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1055946951054",
+    "project_id": "chadchat-97e3e",
+    "storage_bucket": "chadchat-97e3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055946951054:android:dd555b02cd8e3669693cdf",
+        "android_client_info": {
+          "package_name": "com.gigachad.chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBmTtCOXanVK1iZHiiCgMTqwoNzP2G8D8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
