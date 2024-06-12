@@ -46,7 +46,7 @@ class LoginPage extends StatelessWidget {
 
             const SizedBox(height: 50),
             // welcome back message
-            Text("Welcome back, you've been missed!",
+            Text("Bem vindo de volta, GIGA CHAD!",
                 style: TextStyle(
                   color: Theme.of(context).colorScheme.primary,
                   fontSize: 16,
@@ -63,7 +63,7 @@ class LoginPage extends StatelessWidget {
             const SizedBox(height: 10),
             // pw textfield
             MyTextfield(
-              hintText: "Password",
+              hintText: "Senha",
               obscureText: true,
               controller: _pwController,
             ),
@@ -81,13 +81,13 @@ class LoginPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  "Não é um membro?",
+                  "Não é um membro? ",
                   style:
                       TextStyle(color: Theme.of(context).colorScheme.primary),
                 ),
                 GestureDetector(
                   onTap: onTap,
-                  child: const Text("Register Now",
+                  child: const Text("Registre-se agora!",
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                       )),

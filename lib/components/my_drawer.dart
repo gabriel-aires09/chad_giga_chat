@@ -13,7 +13,7 @@ class MyDrawer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Drawer(backgroundColor: Theme.of(context).colorScheme.background,
+    return Drawer(backgroundColor: Theme.of(context).colorScheme.surface,
       child: Column(
         children: [
           //logo
@@ -24,8 +24,8 @@ class MyDrawer extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(left: 25.0),
             child: ListTile(
-              title: Text("H O M E"),
-              leading: Icon(Icons.home),
+              title: const Text("H O M E"),
+              leading: const Icon(Icons.home),
               onTap: () {
                 Navigator.pop(context);
               },
@@ -36,11 +36,11 @@ class MyDrawer extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(left: 25.0),
             child: ListTile(
-              title: Text("C O N F I G"),
-              leading: Icon(Icons.settings),
+              title: const Text("C O N F I G"),
+              leading: const Icon(Icons.settings),
               onTap: () {
                 Navigator.pop(context);
-                Navigator.push(context, MaterialPageRoute(builder: (context) => SettingsPage(),));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => const SettingsPage(),));
               },
             ),
           ),
@@ -50,8 +50,8 @@ class MyDrawer extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(left: 25.0, bottom: 25),
             child: ListTile(
-              title: Text("S A I R"),
-              leading: Icon(Icons.logout),
+              title: const Text("S A I R"),
+              leading: const Icon(Icons.logout),
               onTap: logout,
             ),
           )
